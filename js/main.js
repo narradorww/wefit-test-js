@@ -57,7 +57,6 @@ card3.style.order = "4"
 card4.style.order = "1"
 
 letList = document.getElementsByClassName("list-group-item");
-//inserta  anew li in the Ul
 letList[2].insertAdjacentHTML('afterend', '<li class="list-group-item">Quarto Item</li>');
 letList[3].insertAdjacentHTML('afterend', '<li class="list-group-item">Quinto Item</li>');
 
